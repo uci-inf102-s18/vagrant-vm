@@ -5,12 +5,12 @@ This repository (vagrant) provides a minimal configuration to boot up a VirtualB
 
 ## Installation
 
-1. Make sure that you have git, VirtualBox and Vagrant installed.
+1. Make sure that you have [git](https://git-scm.com), [VirtualBox](https://www.virtualbox.org), and [Vagrant](https://www.vagrantup.com) installed.
 2. Install Vagrant plugins to provide VirtualBox guest additions, and synchronize time between your VM guest and host:
-	+ vagrant plugin install vagrant-vbguest
-	+ vagrant plugin install vagrant-timezone
+	+ `vagrant plugin install vagrant-vbguest`
+	+ `vagrant plugin install vagrant-timezone`
 3. Clone this project into the directory that you will be using for development:
-	+ `git clone https://gitlab.com/UBCSE250/vagrant.git`
+	+ `git clone https://github.com/uci-inf102-s18/vagrant-vm`
 
 4. Make sure that you have at least 16GB of free storage to deploy new VM with the development environment.
 
