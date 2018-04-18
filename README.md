@@ -1,4 +1,4 @@
-# Concepts of Programming Languages VM (Work in progress)
+# INF102 VM (Work in progress)
 
 ## Introduction
 This repository (vagrant) provides a minimal configuration to boot up a VirtualBox VM with a development environment that you can use to work on the programming assignments for INF102. **NOTE**: This is a work in progress, and will be updated over the next week(s). 
