@@ -21,8 +21,8 @@ Vagrant.configure("2") do |config|
    v.memory = "8192"
    v.gui = false
   end
-  config.vm.provision "languages", type:"shell", path: "provisions/dependencies.sh"
 
-  config.vm.provision "setup-node", privileged: false, type:"shell", path: "provisions/setup-node.sh"
+  config.vm.provision "languages", type:"shell", path: "provision/dependencies.sh"
+  config.vm.provision "setup-node", privileged: false, type:"shell", path: "provision/setup-node.sh"
 
 end
