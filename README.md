@@ -22,8 +22,8 @@ This repository (vagrant) provides a minimal configuration to boot up a VirtualB
 progress in the terminal, and you should see active VirtualBox window:
 	+ ```vagrant up```
 
-3. Once deployment is done. You should reload VM to enable Ubuntu GUI:
-	+ ```vagrant reload```
+3. Once deployment is done. You can ssh into your vm using:
+	+ ```vagrant ssh```
 
 ## Usage
 
