@@ -14,7 +14,6 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", type: "dhcp"
   config.vm.synced_folder ".", "/home/vagrant/shared_data/", type: "nfs"
 
-
   # Please modify this to your own liking:
   config.vm.provider "virtualbox" do |v|
    v.name = "inf102vm"
@@ -22,6 +21,8 @@ Vagrant.configure("2") do |config|
    v.memory = "8192"
    v.gui = false
   end
+  config.vm.provision "languages", type:"shell", path: "provisions/dependencies.sh"
 
-  config.vm.provision "shell", path: "dependencies.sh"
+  config.vm.provision "setup-node", privileged: false, type:"shell", path: "provisions/setup-node.sh"
+
 end

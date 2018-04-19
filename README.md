@@ -40,7 +40,7 @@ Below are several details regarding the VM environment:
 + Files in your working Vagrant directory (the one in which you booted up VM) are shared with the VM via /vagrant directory.
 
 ## Available Languages:
-The following languages are preinstalled in the VM. If there is a language missing that you want to use, please open an issue/pull request to the repository so I can add to the project.
+The following languages are preinstalled in the VM. If there is a language missing that you want to use, please open a pull request so we can add the language to the virtual machine. 
 
 + python (3.5.2)
 + python (2.7.12)
@@ -52,11 +52,11 @@ The following languages are preinstalled in the VM. If there is a language missi
 + go (1.6.2)
 + haskell (7.10.3)
 + kotlin (1.2.31)
-+ java9
++ java 8
 + c (gcc)
 + c++ (g++)
 + c# (mcs 4.2.1)
-+ javascript (using nodejs)
++ javascript (using Node (8.11.1))
 
 ## Credits
 Credits for this readme go to [Jaroslaw Zola](https://gitlab.com/UBCSE250/vagrant/tree/master)
