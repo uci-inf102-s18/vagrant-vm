@@ -1,7 +1,7 @@
 # INF102 VM (Work in progress)
 
 ## Introduction
-This repository (vagrant) provides a minimal configuration to boot up a VirtualBox VM with a development environment that you can use to work on the programming assignments for INF102. **NOTE**: This is a work in progress, and will be updated over the next week(s). 
+This repository (vagrant) provides a minimal configuration to boot up a VirtualBox VM with a development environment that you can use to work on the programming assignments for INF102. **NOTE**: This is a work in progress, and will be updated over the next week(s).
 
 ## Installation
 
@@ -40,7 +40,7 @@ Below are several details regarding the VM environment:
 + Files in your working Vagrant directory (the one in which you booted up VM) are shared with the VM via /vagrant directory.
 
 ## Available Languages:
-The following languages are preinstalled in the VM. If there is a language missing that you want to use, please open a pull request so we can add the language to the virtual machine. 
+The following languages are preinstalled in the VM. If there is a language missing that you want to use, please open a pull request so we can add the language to the virtual machine.
 
 + python (3.5.2)
 + python (2.7.12)
@@ -57,6 +57,8 @@ The following languages are preinstalled in the VM. If there is a language missi
 + c++ (g++)
 + c# (mcs 4.2.1)
 + javascript (using Node (8.11.1))
++ erlang/OTP (20)
++ elixir (1.6.4)
 
 ## Credits
 Credits for this readme go to [Jaroslaw Zola](https://gitlab.com/UBCSE250/vagrant/tree/master)
