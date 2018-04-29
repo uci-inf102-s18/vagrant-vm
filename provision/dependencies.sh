@@ -31,12 +31,13 @@ else
 fi
 
 snap install kotlin --classic
+apt-get install -y scala 2.16
 
 # Python
 apt-get install -y python3.5
 apt-get install -y python3-pip
 
-apt-get install -y python2.7 
+apt-get install -y python2.7
 apt-get install -y python-pip
 
 # some other random languages
@@ -50,4 +51,10 @@ apt-get install -y ruby2.3
 apt-get install -y lua5.2
 apt-get install -y julia 0.4.5
 apt-get install -y perl 5.22
-apt-get install -y scala
+
+# Elixir
+wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
+apt-get update -y
+apt-get install -y esl-erlang
+apt-get install -y elixir
+
