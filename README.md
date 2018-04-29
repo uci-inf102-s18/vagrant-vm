@@ -59,6 +59,7 @@ The following languages are preinstalled in the VM. If there is a language missi
 + javascript (using Node (8.11.1))
 + erlang/OTP (20)
 + elixir (1.6.4)
++ scala (2.11.6)
 
 ## Credits
 Credits for this readme go to [Jaroslaw Zola](https://gitlab.com/UBCSE250/vagrant/tree/master)
