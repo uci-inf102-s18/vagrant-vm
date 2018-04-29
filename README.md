@@ -57,6 +57,7 @@ The following languages are preinstalled in the VM. If there is a language missi
 + c++ (g++)
 + c# (mcs 4.2.1)
 + javascript (using Node (8.11.1))
++ scala (2.11.6)
 
 ## Credits
 Credits for this readme go to [Jaroslaw Zola](https://gitlab.com/UBCSE250/vagrant/tree/master)
