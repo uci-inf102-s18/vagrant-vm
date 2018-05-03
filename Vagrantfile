@@ -17,8 +17,8 @@ Vagrant.configure("2") do |config|
   # Please modify this to your own liking:
   config.vm.provider "virtualbox" do |v|
    v.name = "inf102vm"
-   v.cpus = "2"
-   v.memory = "8192"
+   v.cpus = "1"
+   v.memory = "4096"
    v.gui = false
   end
 
