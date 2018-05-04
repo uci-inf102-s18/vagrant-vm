@@ -48,6 +48,7 @@ apt-get install -y ghc 7.10
 apt-get install -y ghc-prof
 apt-get install -y ghc-doc
 apt-get install -y ruby2.3
+gem install parseconfig
 apt-get install -y lua5.2
 apt-get install -y julia 0.4.5
 apt-get install -y perl 5.22
