@@ -48,7 +48,6 @@ apt-get install -y ghc 7.10
 apt-get install -y ghc-prof
 apt-get install -y ghc-doc
 apt-get install -y ruby2.3
-gem install parseconfig
 apt-get install -y lua5.2
 apt-get install -y julia 0.4.5
 apt-get install -y perl 5.22
@@ -58,4 +57,8 @@ wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo 
 apt-get update -y
 apt-get install -y esl-erlang
 apt-get install -y elixir
+
+# Libraries/Dependencies
+gem install parseconfig
+apt-get install libboost-all-dev
 
