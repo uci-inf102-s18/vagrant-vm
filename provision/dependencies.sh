@@ -61,6 +61,7 @@ apt-get install -y elixir
 # Libraries/Dependencies
 gem install parseconfig
 apt-get install libboost-all-dev
+gem install sqlite3
 
 # Database
 apt-get install sqlite3 libsqlite3-dev
