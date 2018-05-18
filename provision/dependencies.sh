@@ -47,7 +47,7 @@ apt-get install -y cargo 0.23
 apt-get install -y ghc 7.10
 apt-get install -y ghc-prof
 apt-get install -y ghc-doc
-apt-get install -y ruby2.3
+apt-get install -y ruby-dev
 apt-get install -y lua5.2
 apt-get install -y julia 0.4.5
 apt-get install -y perl 5.22
@@ -64,3 +64,4 @@ apt-get install libboost-all-dev
 
 # Database
 apt-get install sqlite3 libsqlite3-dev
+gem install sqlite3
