@@ -51,6 +51,7 @@ apt-get install -y ruby2.3
 apt-get install -y lua5.2
 apt-get install -y julia 0.4.5
 apt-get install -y perl 5.22
+apt-get install -y golang-1.10
 
 # Elixir
 wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
