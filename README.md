@@ -54,6 +54,7 @@ The following languages are preinstalled in the VM. If there is a language missi
 + perl (5.22)
 + rust (1.22.1)
 + go (1.6.2)
++ go (1.10)
 + haskell (7.10.3)
 + kotlin (1.2.31)
 + java 8
